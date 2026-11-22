@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<script>(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'}document.documentElement.setAttribute('data-theme',t)})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prime &amp; it — Маркетинг полного цикла</title>
+<meta name="description" content="Prime &amp; it — продакшн, ИИ-контент, сайты и IT-продукты для бизнеса.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#top" class="logo">Prime<span class="logo-amp">&amp;</span><span class="logo-rocket-container"><span class="logo-rocket-dot"></span><svg class="logo-rocket-icon" viewBox="0 0 24 24"><path d="M12 2.5C12 2.5 17 6 17 12C17 14.5 16 16.5 15 17.5L15 20.5L12 19L9 20.5L9 17.5C8 16.5 7 14.5 7 12C7 6 12 2.5 12 2.5ZM12 7.5C10.6 7.5 9.5 8.6 9.5 10C9.5 11.4 10.6 12.5 12 12.5C13.4 12.5 14.5 11.4 14.5 10C14.5 8.6 13.4 7.5 12 7.5Z"/><path d="M12 20.5L12 23.5L10 22L12 20.5Z" opacity="0.8"/></svg></span>t</a>
+    
+    <div class="nav-center" id="navCenter">
+      <div class="nav-links">
+        <a href="#cases" data-i18n="nav-cases">Кейсы</a>
+        <a href="#process" data-i18n="nav-process">Как работаем</a>
+        <a href="#team" data-i18n="nav-team">Команда</a>
+        <a href="store/index.html" class="nav-product">RunCode</a>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <a href="#cta" class="btn-header" data-i18n="nav-btn-cta">Обсудить проект</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Светлая / тёмная тема" title="Светлая / тёмная тема"><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></button>
+      <div class="lang-switch">
+        <button class="lang-btn active" id="btn-ru">RU</button>
+        <button class="lang-btn" id="btn-en">EN</button>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+
+  <!-- ================= CASES ================= -->
+  <section class="cases" id="cases">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <h1 id="dynamic-headline" class="dyn-headline">Превращаем красивую картинку в реальную <span class="highlight">прибыль</span></h1>
+        <p data-i18n="cases-sub">Отфильтруйте по направлению — каждый кейс открывается подробно, с цифрами и роликами.</p>
+      </div>
+      <div class="stats-band" data-reveal><div class="stats-glow" aria-hidden="true"></div><div class="stat"><b>48M+</b><span data-i18n="st-0">просмотров роликов наших клиентов</span></div><div class="stat"><b>2.3M</b><span data-i18n="st-1">рекорд одного ИИ-ролика</span></div><div class="stat"><b>11</b><span data-i18n="st-2">кейсов с цифрами и роликами</span></div><div class="stat"><b>3</b><span data-i18n="st-3">направления: продакшн, ИИ, сайты и IT</span></div></div>
+      <div class="xfilters-bar"><div class="xfilters"><button class="xfilter active" data-filter="all" data-i18n="x-all">Все кейсы</button><button class="xfilter" data-filter="production" data-i18n="gn-production">Продакшн и медиа</button><button class="xfilter" data-filter="ai" data-i18n="gn-ai">ИИ-продакшн</button><button class="xfilter" data-filter="web" data-i18n="gn-web">Сайты и IT</button></div></div>
+      <div class="xgrid" id="xgrid" data-initial="6">
+        <a class="xcase" href="production.html#roman-shcherbakov" data-genre="production">
+          <div class="xcase-media"><img src="img/cov-roman.webp" data-light="img/cov-roman-light.webp" alt="Роман Щербаков" loading="lazy" style="object-position:50% 50%"><span class="xcase-tag" data-i18n="gn-production">Продакшн и медиа</span><span class="xcase-badge" data-i18n="xb-roman-shcherbakov">43.8M+ просмотров</span></div>
+          <div class="xcase-title"><b>Роман Щербаков</b><span class="xcase-sep">|</span><span data-i18n="xt-roman-shcherbakov">С нуля до миллионных охватов</span></div>
+        </a>
+        <a class="xcase" href="web.html#sibirsky-development" data-genre="web">
+          <div class="xcase-media"><img src="img/cov-alpins.webp" data-light="img/cov-alpins-light.webp" alt="Сибирский Девелопмент" loading="lazy" style="object-position:50% 50%"><span class="xcase-tag" data-i18n="gn-web">Сайты и IT</span><span class="xcase-badge" data-i18n="xb-sibirsky-development">128 зданий в кадре</span></div>
+          <div class="xcase-title"><b>Сибирский Девелопмент</b><span class="xcase-sep">|</span><span data-i18n="xt-sibirsky-development">Презентационный фильм курортного комплекса</span></div>
+        </a>
+        <a class="xcase" href="ai.html#migrantlab-labprava" data-genre="ai">
+          <div class="xcase-media"><img src="img/cov-labprava.webp" data-light="img/cov-labprava-light.webp" alt="MigrantLab · Лаборатория Права" loading="lazy" style="object-position:50% 50%"><span class="xcase-tag" data-i18n="gn-ai">ИИ-продакшн</span><span class="xcase-badge" data-i18n="xb-migrantlab-labprava">2.3M+ рекорд Reels</span></div>
+          <div class="xcase-title"><b>MigrantLab · Лаборатория Права</b><span class="xcase-sep">|</span><span data-i18n="xt-migrantlab-labprava">Нейро-аватар и контент-завод Reels</span></div>
+        </a>
+        <a class="xcase" href="web.html#runcode" data-genre="web">
+          <div class="xcase-media"><img src="img/cov-runcode.webp" data-light="img/cov-runcode-light.webp" alt="RunCode" loading="lazy" style="object-position:50% 50%"><span class="xcase-tag" data-i18n="gn-web">Сайты и IT</span><span class="xcase-badge" data-i18n="xb-runcode">Собственный продукт</span></div>
+          <div class="xcase-title"><b>RunCode</b><span class="xcase-sep">|</span><span data-i18n="xt-runcode">AI-агент, который пишет код за команду</span></div>
+        </a>
+        <a class="xcase" href="web.html#autolead" data-genre="web">
+          <div class="xcase-media"><img src="img/cov-autolead.webp" data-light="img/cov-autolead-light.webp" alt="АвтоЛид" loading="lazy" style="object-position:50% 50%"><span class="xcase-tag" data-i18n="gn-web">Сайты и IT</span><span class="xcase-badge" data-i18n="xb-autolead">Платформа лидогенерации</span></div>
+          <div class="xcase-title"><b>АвтоЛид</b><span class="xcase-sep">|</span><span data-i18n="xt-autolead">Сервис, который находит покупателей авто из-за рубежа</span></div>
+        </a>
+        <a class="xcase" href="ai.html#ai-lab" data-genre="ai">
+          <div class="xcase-media"><img src="img/cov-ailab.webp" data-light="img/cov-ailab-light.webp" alt="ИИ-лаборатория" loading="lazy" style="object-position:50% 50%"><span class="xcase-tag" data-i18n="gn-ai">ИИ-продакшн</span><span class="xcase-badge" data-i18n="xb-ai-lab">5 нейро-стилей</span></div>
+          <div class="xcase-title"><b>ИИ-лаборатория</b><span class="xcase-sep">|</span><span data-i18n="xt-ai-lab">Пак визуальных решений: ИИ-мультики, комиксы и промо</span></div>
+        </a>
+        <a class="xcase is-extra" href="web.html#synko" data-genre="web">
+          <div class="xcase-media"><img src="img/cov-synko.webp" data-light="img/cov-synko-light.webp" alt="Synko" loading="lazy" style="object-position:50% 50%"><span class="xcase-tag" data-i18n="gn-web">Сайты и IT</span><span class="xcase-badge" data-i18n="xb-synko">Собственный продукт</span></div>
+          <div class="xcase-title"><b>Synko</b><span class="xcase-sep">|</span><span data-i18n="xt-synko">Автономный ИИ-агент, который выполняет бизнес-процессы</span></div>
+        </a>
+        <a class="xcase is-extra" href="web.html#pixel-office" data-genre="web">
+          <div class="xcase-media"><img src="img/cov-pixel.webp" data-light="img/cov-pixel-light.webp" alt="Pixel Office" loading="lazy" style="object-position:50% 50%"><span class="xcase-tag" data-i18n="gn-web">Сайты и IT</span><span class="xcase-badge" data-i18n="xb-pixel-office">Собственный продукт</span></div>
+          <div class="xcase-title"><b>Pixel Office</b><span class="xcase-sep">|</span><span data-i18n="xt-pixel-office">Комната вайб-кодинга: управление ИИ-агентами в пиксельном офисе</span></div>
+        </a>
+        <a class="xcase is-extra" href="production.html#drhead" data-genre="production">
+          <div class="xcase-media"><img src="img/cov-drhead.webp" data-light="img/cov-drhead-light.webp" alt="DrHead" loading="lazy" style="object-position:50% 50%"><span class="xcase-tag" data-i18n="gn-production">Продакшн и медиа</span><span class="xcase-badge" data-i18n="xb-drhead">1.0M+ просмотров</span></div>
+          <div class="xcase-title"><b>DrHead</b><span class="xcase-sep">|</span><span data-i18n="xt-drhead">Виральный контент для бренда</span></div>
+        </a>
+        <a class="xcase is-extra" href="production.html#tatiana-taiga" data-genre="production">
+          <div class="xcase-media"><img src="img/cov-taiga.webp" data-light="img/cov-taiga-light.webp" alt="Татьяна Тайга" loading="lazy" style="object-position:50% 50%"><span class="xcase-tag" data-i18n="gn-production">Продакшн и медиа</span><span class="xcase-badge" data-i18n="xb-tatiana-taiga">38K+ у выпуска</span></div>
+          <div class="xcase-title"><b>Татьяна Тайга</b><span class="xcase-sep">|</span><span data-i18n="xt-tatiana-taiga">Подкаст под ключ</span></div>
+        </a>
+        <a class="xcase is-extra" href="ai.html#ruswater" data-genre="ai">
+          <div class="xcase-media"><img src="img/cov-ruswater.webp" data-light="img/cov-ruswater-light.webp" alt="RusWater" loading="lazy" style="object-position:50% 50%"><span class="xcase-tag" data-i18n="gn-ai">ИИ-продакшн</span><span class="xcase-badge" data-i18n="xb-ruswater">100% ИИ, без съёмок</span></div>
+          <div class="xcase-title"><b>RusWater</b><span class="xcase-sep">|</span><span data-i18n="xt-ruswater">ИИ-фильмы о производстве</span></div>
+        </a>
+      </div>
+      <button class="xmore" id="xmore"><span data-i18n="x-more">Показать ещё</span> <span aria-hidden="true">+</span></button>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="cta-block" id="cta">
+    <div class="wrap cta-inner">
+      <div data-reveal>
+        <h2 data-i18n="cta-title">Обсудим <mark>рост вашего</mark> бизнеса</h2>
+        <p data-i18n="cta-desc">Расскажите, чем занимаемся — мы пришлём короткий аудит и подход, который видим лично для вас.</p>
+      </div>
+      <form class="form" data-reveal data-lead-form>
+        <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="text" placeholder="Имя" id="f-name" name="name" required>
+        <input type="text" placeholder="Ниша / Направление бизнеса" id="f-company" name="company" required>
+        <input type="tel" placeholder="Моб.телефон или Telegram" id="f-contact" name="contact" required>
+        <textarea rows="3" placeholder="Задача" id="f-task" name="task"></textarea>
+        <label class="consent"><input type="checkbox" id="f-consent" required><span data-i18n="consent">Я даю <a href="consent.html" target="_blank">согласие на обработку персональных данных</a> и принимаю <a href="privacy.html" target="_blank">Политику конфиденциальности</a></span></label>
+        <button type="submit" class="btn btn-solid" data-i18n="cta-btn">Обсудить проект</button>
+        <div class="lead-done" hidden><p data-i18n="lead-done">Откроется почтовое приложение с готовым письмом — отправьте его, и мы свяжемся с вами.</p><p><span data-i18n="lead-done-alt">Если письмо не открылось, напишите нам на</span> <a href="mailto:primeit_agency@mail.ru">primeit_agency@mail.ru</a></p></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= DIRECTIONS ================= -->
+  <section class="directions" id="directions">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <h2 data-i18n="x-genres-title">Направления</h2>
+        <p data-i18n="x-genres-sub">Внутри каждого — подробные кейсы: задача, что сделали, цифры и ролики.</p>
+      </div>
+      <div class="genre-grid" data-reveal>
+        <a class="genre-card" href="production.html">
+          <div class="genre-card-body">
+            <span class="genre-num">01</span>
+            <h3 data-i18n="gn-production">Продакшн и медиа</h3>
+            <p data-i18n="gd-production">Съёмки, продюсирование блогов и подкастов, Shorts и Reels.</p>
+            <div class="genre-metric"><b>43.8M+</b><span data-i18n="gm-production">просмотров у канала гонщика</span></div>
+            <ul class="genre-clients"><li>Роман Щербаков</li><li>DrHead</li><li>Татьяна Тайга</li></ul>
+            <span class="genre-more" data-i18n="g-more">Смотреть кейсы →</span>
+          </div>
+        </a>
+        <a class="genre-card" href="ai.html">
+          <div class="genre-card-body">
+            <span class="genre-num">02</span>
+            <h3 data-i18n="gn-ai">ИИ-продакшн</h3>
+            <p data-i18n="gd-ai">Нейро-аватары, ИИ-ролики и фильмы о производстве без съёмок.</p>
+            <div class="genre-metric"><b>4.4M+</b><span data-i18n="gm-ai">просмотров у ИИ-Reels</span></div>
+            <ul class="genre-clients"><li>MigrantLab · Лаборатория Права</li><li>RusWater</li><li>ИИ-лаборатория</li></ul>
+            <span class="genre-more" data-i18n="g-more">Смотреть кейсы →</span>
+          </div>
+        </a>
+        <a class="genre-card" href="web.html">
+          <div class="genre-card-body">
+            <span class="genre-num">03</span>
+            <h3 data-i18n="gn-web">Сайты и IT</h3>
+            <p data-i18n="gd-web">Сайты, SaaS и AI-продукты, лендинги и презентационные ролики для B2B.</p>
+            <div class="genre-metric"><b>128</b><span data-i18n="gm-web">зданий курорта в фильме для девелопера</span></div>
+            <ul class="genre-clients"><li>Сибирский Девелопмент</li><li>RunCode</li><li>Synko</li><li>Pixel Office</li><li>АвтоЛид</li></ul>
+            <span class="genre-more" data-i18n="g-more">Смотреть кейсы →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= PROCESS ================= -->
+  <section class="process" id="process">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <h2 data-i18n="proc-title"><span class="highlight-accent">Сначала аудит.</span><br>Потом — конкретика.</h2>
+        <p data-i18n="proc-desc">Перед тем как что-то продать, мы смотрим соцсети, сайт, вовлечённость, крео и дизайн — и предлагаем не «пакет услуг», а два конкретных сценария: рост продаж или снятие рутины с вашей команды.</p>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="process-row" data-reveal>
+        <div class="process-step">
+          <span class="step-num">01</span>
+          <div class="step-title" data-i18n="step-1-title">Аудит</div>
+          <p class="step-desc" data-i18n="step-1-desc">Разбираем текущее состояние: контент, сайт, процессы, узкие места.</p>
+          <span class="process-arrow">→</span>
+        </div>
+        <div class="process-step">
+          <span class="step-num">02</span>
+          <div class="step-title" data-i18n="step-2-title">Предложение</div>
+          <p class="step-desc" data-i18n="step-2-desc">Предлагаем два сценария: рост продаж и оптимизация процессов. Без навязанных пакетов услуг.</p>
+          <span class="process-arrow">→</span>
+        </div>
+        <div class="process-step">
+          <span class="step-num">03</span>
+          <div class="step-title" data-i18n="step-3-title">Запуск</div>
+          <p class="step-desc" data-i18n="step-3-desc">Собираем решение: контент, ИИ-инструменты, автоматизация. Получаем первые результаты.</p>
+          <span class="process-arrow">→</span>
+        </div>
+        <div class="process-step">
+          <span class="step-num">04</span>
+          <div class="step-title" data-i18n="step-4-title">Ведение / рост</div>
+          <p class="step-desc" data-i18n="step-4-desc">Фиксированная модель ведения. Рутина — на нас, вы получаете стабильный результат и лиды.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= TEAM ================= -->
+  <section id="team">
+    <div class="wrap team">
+      <div class="team-copy" data-reveal>
+        <p class="team-lead"><span class="hl" data-i18n="team-desc-1">За результатом стоит небольшая команда с опытом в сфере продакшна, маркетинга и SMM, которая сама смотрит метрики, сама монтирует и напрямую отвечает клиенту. Меньше прослоек — быстрее решения.</span></p>
+        <div class="team-contacts"><span data-i18n="team-write">Написать напрямую в Telegram:</span><a class="team-tg" href="https://t.me/pugovkin777" target="_blank" rel="noopener">@pugovkin777</a><a class="team-tg" href="https://t.me/niks_ryam" target="_blank" rel="noopener">@niks_ryam</a></div>
+      </div>
+    </div>
+  </section>
+
+
+</main>
+
+<a class="lime-strip" href="store/index.html"><span data-i18n="strip-rc">Попробуйте RunCode — наш AI-агент для разработки</span></a>
+<footer>
+  <div class="wrap">
+    <div class="foot-container">
+      <!-- Первая строка: Почта, Telegram, Instagram -->
+      <div class="foot-row">
+        <div class="foot-links-primary">
+          <span class="mail-wrap"><a href="mailto:primeit_agency@mail.ru">primeit_agency@mail.ru</a><button class="copy-mail" data-copy="primeit_agency@mail.ru" aria-label="Скопировать почту" title="Скопировать"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg></button></span>
+          <a href="https://t.me/pugovkin777" target="_blank" rel="noopener" class="foot-tg">Telegram @pugovkin777</a>
+          <a href="https://t.me/niks_ryam" target="_blank" rel="noopener" class="foot-tg">Telegram @niks_ryam</a>
+          <a href="https://www.instagram.com/pugovkinn777/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+
+      <!-- Вторая строка: Cookie Policy, Terms, Privacy -->
+      <div class="foot-row">
+        <div class="foot-links-secondary">
+          <a href="legal.html" data-i18n="foot-legal">Правовая информация</a>
+          <a href="privacy.html" data-i18n="foot-privacy">Политика конфиденциальности</a>
+          <a href="terms.html" data-i18n="foot-terms">Пользовательское соглашение</a>
+          <a href="cookies.html" data-i18n="foot-cookie">Cookie</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Большой анимированный логотип (идеально по центру) -->
+    <div class="footer-gigantic-logo-wrap">
+      <div class="footer-gigantic-logo" id="footerLogo">
+        <span class="f-letter">P</span><span class="f-letter">R</span><span class="f-letter">I</span><span class="f-letter">M</span><span class="f-letter">E</span><span class="f-letter">&amp;</span><span class="f-letter">I</span><span class="f-letter">T</span>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <span data-i18n="foot-copy">© 2026 Prime&amp;it. Все права защищены.</span>
+      <span class="foot-req">ИП Рямяков Никита Алексеевич · ИНН 101402236459 · ОГРНИП 326100000014081</span>
+    </div>
+  </div>
+</footer>
+
+<div class="float-cta" id="floatCta"><a class="float-tg" href="https://t.me/pugovkin777" target="_blank" rel="noopener" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.6 4.1 2.9 11.3c-1.3.5-1.3 1.2-.2 1.6l4.8 1.5 1.8 5.6c.2.6.1.9.8.9.5 0 .7-.2 1-.5l2.4-2.3 4.9 3.6c.9.5 1.6.2 1.8-.8l3.3-15.4c.3-1.3-.5-1.9-1.4-1.4ZM8.9 14l9.3-5.9c.5-.3.9-.1.5.2l-7.9 7.2-.3 3.3L8.9 14Z"/></svg></a><button class="float-btn" data-lead data-i18n="float-cta">Обсудить проект</button></div>
+
+<div class="lead-modal" id="leadModal" role="dialog" aria-modal="true" aria-labelledby="leadTitle">
+  <div class="lead-box">
+    <button class="lead-x" data-lead-close aria-label="Закрыть">×</button>
+    <h3 id="leadTitle" data-i18n="lead-title">Обсудим ваш проект</h3>
+    <p class="lead-sub" data-i18n="lead-sub">Пришлём короткий аудит и подход под вашу задачу.</p>
+    <form class="lead-form" data-lead-form novalidate>
+      <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="text" name="name" required data-ph="lead-name" placeholder="Имя">
+      <input type="text" name="contact" required data-ph="lead-contact" placeholder="Телефон или Telegram">
+      <p class="lead-label" data-i18n="lead-dirs">Какие направления нужны?</p>
+      <div class="chips"><label class="chip"><input type="checkbox" name="dirs" value="Продакшн и медиа"><span data-i18n="dir-production">Продакшн и медиа</span></label><label class="chip"><input type="checkbox" name="dirs" value="ИИ-продакшн"><span data-i18n="dir-ai">ИИ-продакшн</span></label><label class="chip"><input type="checkbox" name="dirs" value="Сайты и IT"><span data-i18n="dir-web">Сайты и IT</span></label><label class="chip"><input type="checkbox" name="dirs" value="Автоматизация и AI-боты"><span data-i18n="dir-automation">Автоматизация и AI-боты</span></label></div>
+      <textarea name="task" rows="3" data-ph="lead-task" placeholder="Расскажите о задаче"></textarea>
+      <label class="consent"><input type="checkbox" name="consent" required><span data-i18n="lead-consent">Я даю <a href="consent.html" target="_blank">согласие на обработку персональных данных</a> и принимаю <a href="privacy.html" target="_blank">Политику конфиденциальности</a></span></label>
+      <button type="submit" class="btn btn-solid" data-i18n="lead-send">Отправить заявку</button>
+      <div class="lead-done" hidden><p data-i18n="lead-done">Откроется почтовое приложение с готовым письмом — отправьте его, и мы свяжемся с вами.</p><p><span data-i18n="lead-done-alt">Если письмо не открылось, напишите нам на</span> <a href="mailto:primeit_agency@mail.ru">primeit_agency@mail.ru</a></p></div>
+    </form>
+  </div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<script>
+  // Языковая база данных
+  let currentLang = 'ru';
+
+  const fitData = {
+    ru: {
+      yes: [
+        "Крупный бизнес",
+        "Бренды",
+        "Застройщики",
+        "Авто-импортёры",
+        "Ремонтные компании",
+        "Фуд-бизнес",
+        "Юристы",
+        "Турагентства",
+        "Крупные сети",
+        "Релокационные сервисы",
+        "Техника / крупные продажи",
+        "Мебель и интерьеры",
+        "Медицинские клиники",
+        "Образовательные компании",
+        "Финансовые и инвестиционные компании"
+      ],
+      no: [
+        "Малый бизнес без бюджета",
+        "Дешёвый контент",
+        "Заказы с низким чеком",
+        "Мелкие блогеры",
+        "Частные лица без понятных целей"
+      ],
+      btnYes: "• берём в работу",
+      btnNo: "• не берём"
+    },
+    en: {
+      yes: [
+        "Enterprise Business",
+        "Brands",
+        "Developers & Real Estate",
+        "Auto Importers",
+        "Renovation Companies",
+        "Food Business",
+        "Legal Services",
+        "Travel Agencies",
+        "Large Chains",
+        "Relocation Services",
+        "High-Ticket Electronics / Sales",
+        "Furniture & Interiors",
+        "Medical Clinics",
+        "EdTech & Education",
+        "Financial & Investment Companies"
+      ],
+      no: [
+        "Small Business with No Budget",
+        "Cheap Content Requests",
+        "Low-Ticket Orders",
+        "Micro-Influencers",
+        "Individuals with No Clear Goals"
+      ],
+      btnYes: "• who we work with",
+      btnNo: "• who we skip"
+    }
+  };
+
+  const headlinesRU = [
+    'Превращаем красивую картинку в реальную <span class="highlight">прибыль</span>',
+    'Мы делаем бизнесу <span class="highlight">деньги</span>.\nА не просто делаем рекламу.',
+    'Создаем маркетинг полного цикла.\n<span class="highlight">Без потерянных лидов</span>.'
+  ];
+
+  const headlinesEN = [
+    'Turning beautiful visuals into real <span class="highlight">profit</span>',
+    'We make business <span class="highlight">money</span>.\nNot just advertising.',
+    'Full-cycle marketing.\n<span class="highlight">Zero lost leads</span>.'
+  ];
+
+  const dict = window.PAGE_I18N = {
+    en: {
+      'nav-cases': 'Cases',
+      'nav-services': 'Services',
+      'nav-process': 'Process',
+      'nav-fit': 'Who we fit',
+      'nav-team': 'Team',
+      'nav-btn-cta': 'Discuss project',
+      'hero-eyebrow': 'Full-cycle marketing',
+      'hero-sub': 'Package, launch and automate. Production, performance and lead generation',
+      'btn-discuss': 'Discuss project',
+      'btn-cases': 'View cases',
+      'cases-title': '<span class="highlight-accent">Numbers</span>, not promises',
+      'cases-sub': 'Client results speak for us: projects, concrete achievements, and numbers.',
+      'services-eyebrow': 'WHAT WE DO',
+      'services-title': '<span class="highlight-accent">Not 15 separate services.</span><br>Four solid workstreams.',
+      'srv-a-title': 'Traffic & Sales',
+      'srv-a-1': 'Targeted Advertising (Yandex, VK, etc.)',
+      'srv-a-2': 'Performance marketing focused on KPIs',
+      'srv-a-3': 'Sales funnels',
+      'srv-a-4': 'Lead generation',
+      'srv-b-title': 'Content & Production',
+      'srv-b-1': 'Project management & publishing',
+      'srv-b-2': 'Creative videos & filming — up to state-level',
+      'srv-b-3': 'Design & visual support',
+      'srv-b-4': 'Content factory',
+      'srv-c-title': 'Automation & AI',
+      'srv-c-1': 'AI process optimization',
+      'srv-c-2': 'Automated AI bots for messaging',
+      'srv-c-3': 'Parsers & integrations',
+      'srv-c-4': 'Routine automation',
+      'srv-d-title': 'Tech Infrastructure',
+      'srv-d-1': 'Landings & websites',
+      'srv-d-2': 'Cash registers, acquiring, OFD',
+      'srv-d-3': 'Reputation & reviews management',
+      'proc-eyebrow': 'How we work',
+      'proc-title': '<span class="highlight-accent">Audit first.</span><br>Actionable steps next.',
+      'proc-desc': 'Before selling anything, we audit your socials, site, engagement and creatives. Then we offer two clear scenarios: revenue growth or taking routine off your team.',
+      'step-1-title': 'Audit',
+      'step-1-desc': 'Analyzing the current state: content, website, processes, bottlenecks.',
+      'step-2-title': 'Proposal',
+      'step-2-desc': 'We offer two scenarios: sales growth and process optimization. No imposed service packages.',
+      'step-3-title': 'Launch',
+      'step-3-desc': 'Building the solution: content, AI tools, automation. Getting initial results.',
+      'step-4-title': 'Growth & Support',
+      'step-4-desc': 'Fixed management model. Routine is on us — you get stable results and leads.',
+      'fit-eyebrow': 'Target audience',
+      'fit-title': 'We work with businesses ready to pay for results',
+      'fit-btn-yes': '• who we work with',
+      'fit-punch': '...and those here just because of the name.',
+      'team-eyebrow': 'Team',
+      'team-title': '<span class="highlight-accent">Co-founders.</span> Not "200 employees".',
+      'team-desc-1': 'Behind every result is a small team with expertise in production, marketing, and SMM that tracks metrics, edits video, and communicates directly. Fewer layers — faster execution.',
+      'team-desc-2': 'We execute with hands and brains, not endless slides.',
+      't-stat-1': 'Ideas per client: sales growth and routine reduction',
+      't-stat-2': 'directions: production, AI, web & IT',
+      't-stat-3': 'Single team — no third-party outsourcing',
+      't-stat-4': 'Priority. B2C on capacity',
+      'cta-eyebrow': 'GET STARTED',
+      'cta-title': 'Let’s discuss <mark>your business</mark> growth',
+      'cta-desc': 'Tell us what you do — we’ll send a quick audit and an approach tailored specifically to you.',
+      'cta-btn': 'Discuss project',
+      'foot-cookie': 'Cookie Policy',
+      'foot-terms': 'Terms',
+      'foot-privacy': 'Privacy',
+      'foot-copy': '© 2026 Prime&it. All rights reserved.'
+    },
+    ru: {
+      'nav-cases': 'Кейсы',
+      'nav-services': 'Услуги',
+      'nav-process': 'Как работаем',
+      'nav-fit': 'Кому подходим',
+      'nav-team': 'Команда',
+      'nav-btn-cta': 'Обсудить проект',
+      'hero-eyebrow': 'Маркетинг полного цикла',
+      'hero-sub': 'Упакуем, запустим и автоматизируем. Продакшн, перформанс и лидогенерация',
+      'btn-discuss': 'Обсудить проект',
+      'btn-cases': 'Смотреть кейсы',
+      'cases-title': '<span class="highlight-accent">Цифры</span>, а не обещания',
+      'cases-sub': 'Результаты клиентов говорят за нас: проекты, конкретные достижения и цифры.',
+      'services-eyebrow': 'ЧТО ДЕЛАЕМ',
+      'services-title': '<span class="highlight-accent">Не 15 услуг списком.</span><br>Четыре рабочих контура.',
+      'srv-a-title': 'Трафик и продажи',
+      'srv-a-1': 'Таргетированная реклама (Яндекс, VK и др.)',
+      'srv-a-2': 'Перформанс-маркетинг с фокусом на KPI',
+      'srv-a-3': 'Воронки продаж',
+      'srv-a-4': 'Лидогенерация',
+      'srv-b-title': 'Контент и продакшн',
+      'srv-b-1': 'Ведение проектов и публикаций',
+      'srv-b-2': 'Крео-видеоролики и съёмки — вплоть до гос.уровня',
+      'srv-b-3': 'Дизайн и визуальное сопровождение',
+      'srv-b-4': 'Контент-завод',
+      'srv-c-title': 'Автоматизация и AI',
+      'srv-c-1': 'AI-оптимизация процессов',
+      'srv-c-2': 'Автоматические AI-боты для сообщений',
+      'srv-c-3': 'Парсеры и интеграции',
+      'srv-c-4': 'Автоматизация рутины',
+      'srv-d-title': 'Техническая инфраструктура',
+      'srv-d-1': 'Лендинги и сайты',
+      'srv-d-2': 'Кассы, эквайринг, ОФД',
+      'srv-d-3': 'Работа с отзывами',
+      'proc-eyebrow': 'Как работаем',
+      'proc-title': '<span class="highlight-accent">Сначала аудит.</span><br>Потом — конкретика.',
+      'proc-desc': 'Перед тем как что-то продать, мы смотрим соцсети, сайт, вовлечённость, крео и дизайн — и предлагаем не «пакет услуг», а два конкретных сценария: рост продаж или снятие рутины с вашей команды.',
+      'step-1-title': 'Аудит',
+      'step-1-desc': 'Разбираем текущее состояние: контент, сайт, процессы, узкие места.',
+      'step-2-title': 'Предложение',
+      'step-2-desc': 'Предлагаем два сценария: рост продаж и оптимизация процессов. Без навязанных пакетов услуг.',
+      'step-3-title': 'Запуск',
+      'step-3-desc': 'Собираем решение: контент, ИИ-инструменты, автоматизация. Получаем первые результаты.',
+      'step-4-title': 'Ведение / рост',
+      'step-4-desc': 'Фиксированная модель ведения. Рутина — на нас, вы получаете стабильный результат и лиды.',
+      'fit-eyebrow': 'Кому подходим',
+      'fit-title': 'Работаем с бизнесом, который готов платить за результат',
+      'fit-btn-yes': '• берём в работу',
+      'fit-punch': '...и с теми, кто зашёл только из-за названия.',
+      'team-eyebrow': 'Команда',
+      'team-title': '<span class="highlight-accent">Кофаундеры.</span> Не «200 сотрудников».',
+      'team-desc-1': 'За результатом стоит небольшая команда с опытом в сфере продакшна, маркетинга и SMM, которая сама смотрит метрики, сама монтирует и напрямую отвечает клиенту. Меньше прослоек — быстрее решения.',
+      'team-desc-2': 'Делаем руками и мозгами, а не презентациями о том, как бы мы могли сделать.',
+      't-stat-1': 'Идеи для каждого клиента: рост продаж и оптимизация',
+      't-stat-2': 'направления: продакшн, ИИ, сайты и IT',
+      't-stat-3': 'Команда — без субподрядчиков на каждом этапе',
+      't-stat-4': 'Приоритет. B2C — по возможностям',
+      'cta-eyebrow': 'НАЧАТЬ',
+      'cta-title': 'Обсудим <mark>рост вашего</mark> бизнеса',
+      'cta-desc': 'Расскажите, чем занимаемся — мы пришлём короткий аудит и подход, который видим лично для вас.',
+      'cta-btn': 'Обсудить проект',
+      'foot-cookie': 'Cookie Policy',
+      'foot-terms': 'Terms',
+      'foot-privacy': 'Privacy',
+      'foot-copy': '© 2026 Prime &amp; it. Все права защищены.'
+    }
+  };
+
+  let currentFitMode = 'yes'; 
+  let fitProgressInterval = null;
+  const FIT_DURATION = 5000;
+
+  let fitTagsEl, fitBtn, fitBtnText, fitProgressFill, fitNoteEl, fitFrameEl;
+
+  function renderFitBlock(mode) {
+    currentFitMode = mode;
+    const langData = fitData[currentLang];
+    
+    if(!fitTagsEl) return;
+
+    fitTagsEl.classList.add('fade-out');
+
+    setTimeout(() => {
+      fitTagsEl.innerHTML = '';
+      const list = langData[mode];
+      list.forEach(item => {
+        const chip = document.createElement('div');
+        chip.className = mode === 'yes' ? 'fit-chip' : 'fit-chip mode-no-chip';
+        chip.textContent = item;
+        fitTagsEl.appendChild(chip);
+      });
+
+      if (mode === 'yes') {
+        fitFrameEl.classList.remove('mode-no-active');
+        fitBtn.className = 'fit-toggle-btn mode-yes';
+        fitBtnText.textContent = langData.btnYes;
+        fitProgressFill.style.backgroundColor = 'var(--accent)';
+        fitProgressFill.style.boxShadow = '0 0 10px var(--accent)';
+        fitNoteEl.style.display = 'none';
+      } else {
+        fitFrameEl.classList.add('mode-no-active');
+        fitBtn.className = 'fit-toggle-btn mode-no';
+        fitBtnText.textContent = langData.btnNo;
+        fitProgressFill.style.backgroundColor = 'var(--danger)';
+        fitProgressFill.style.boxShadow = '0 0 12px var(--danger)';
+        fitNoteEl.style.display = 'block';
+      }
+
+      fitTagsEl.classList.remove('fade-out');
+    }, 200);
+
+    resetFitTimer();
+  }
+
+  function resetFitTimer() {
+    clearInterval(fitProgressInterval);
+    let startTime = Date.now();
+    
+    if(fitProgressFill) fitProgressFill.style.width = '0%';
+    
+    fitProgressInterval = setInterval(() => {
+      let elapsed = Date.now() - startTime;
+      let pct = Math.min((elapsed / FIT_DURATION) * 100, 100);
+      if(fitProgressFill) fitProgressFill.style.width = pct + '%';
+      
+      if (elapsed >= FIT_DURATION) {
+        clearInterval(fitProgressInterval);
+        renderFitBlock(currentFitMode === 'yes' ? 'no' : 'yes');
+      }
+    }, 30);
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    fitTagsEl = document.getElementById('fit-tags');
+    fitBtn = document.getElementById('fit-toggle-btn');
+    fitBtnText = document.getElementById('fit-toggle-text');
+    fitProgressFill = document.getElementById('fit-progress');
+    fitNoteEl = document.getElementById('fit-note');
+    fitFrameEl = document.getElementById('fit-frame');
+
+    if(fitBtn) {
+      fitBtn.addEventListener('click', () => {
+        renderFitBlock(currentFitMode === 'yes' ? 'no' : 'yes');
+      });
+    }
+
+
+    renderFitBlock('yes');
+  });
+
+  let currentIndex = 0;
+  const headlineElement = document.getElementById("dynamic-headline");
+
+  function rotateHeadline() {
+    if(!headlineElement) return;
+    headlineElement.classList.add("fade-out");
+    setTimeout(() => {
+      const list = currentLang === 'ru' ? headlinesRU : headlinesEN;
+      currentIndex = (currentIndex + 1) % list.length;
+      headlineElement.innerHTML = list[currentIndex];
+      headlineElement.classList.remove("fade-out");
+    }, 400);
+  }
+
+  setInterval(rotateHeadline, 4500);
+
+  // app.js switches the language and calls this for page-specific parts
+  window.onLangChange = function(lang) {
+    currentLang = lang;
+    if(headlineElement) {
+      headlineElement.innerHTML = (lang === 'ru' ? headlinesRU : headlinesEN)[currentIndex];
+    }
+    renderFitBlock(currentFitMode);
+    const ph = lang === 'en'
+      ? {'f-name': 'Name', 'f-company': 'Business Niche / Field', 'f-contact': 'Mobile or Telegram', 'f-task': 'Task'}
+      : {'f-name': 'Имя', 'f-company': 'Ниша / Направление бизнеса', 'f-contact': 'Моб.телефон или Telegram', 'f-task': 'Задача'};
+    Object.keys(ph).forEach(id => { const el = document.getElementById(id); if(el) el.placeholder = ph[id]; });
+  };
+  Object.assign(dict.en, {"cases-sub": "Pick a direction — detailed cases with numbers and videos inside.", "consent": "I give my <a href=\"consent.html\" target=\"_blank\">consent to the processing of personal data</a> and accept the <a href=\"privacy.html\" target=\"_blank\">Privacy Policy</a> (documents in Russian)", "foot-legal": "Legal information", "foot-privacy": "Privacy policy", "foot-terms": "Terms of use", "foot-cookie": "Cookies", "srv-cases": "Cases in this area →", "gn-production": "Production & Media", "gd-production": "Filming, producing blogs and podcasts, Shorts and Reels.", "gm-production": "views on a racing driver's channel", "gn-ai": "AI Production", "gd-ai": "AI avatars, AI videos and manufacturing films with no filming.", "gm-ai": "views on AI Reels", "gn-web": "Web & IT", "gd-web": "Websites, SaaS and AI products, landing pages and presentation films for B2B.", "gm-web": "resort buildings in a film for a developer"});
+  Object.assign(dict.ru, {"cases-sub": "Выберите направление — внутри подробные кейсы с цифрами и роликами.", "consent": "Я даю <a href=\"consent.html\" target=\"_blank\">согласие на обработку персональных данных</a> и принимаю <a href=\"privacy.html\" target=\"_blank\">Политику конфиденциальности</a>", "foot-legal": "Правовая информация", "foot-privacy": "Политика конфиденциальности", "foot-terms": "Пользовательское соглашение", "foot-cookie": "Cookie", "srv-cases": "Кейсы направления →", "gn-production": "Продакшн и медиа", "gd-production": "Съёмки, продюсирование блогов и подкастов, Shorts и Reels.", "gm-production": "просмотров у канала гонщика", "gn-ai": "ИИ-продакшн", "gd-ai": "Нейро-аватары, ИИ-ролики и фильмы о производстве без съёмок.", "gm-ai": "просмотров у ИИ-Reels", "gn-web": "Сайты и IT", "gd-web": "Сайты, SaaS и AI-продукты, лендинги и презентационные ролики для B2B.", "gm-web": "зданий курорта в фильме для девелопера"});
+</script>
+<script src="assets/config.js"></script>
+<script src="assets/app.js"></script>
+
+
+
+
+</body>
+</html>
